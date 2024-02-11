@@ -1,0 +1,52 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.transition-timing-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	gap: 1rem;
+}
+
+.transition-timing {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	width: 20%;
+	height: 17%;
+}
+
+.ease {
+	background-color: pink;
+	transition: transform 10s ease;
+}
+
+.linear {
+	background-color: rgb(188, 20, 48);
+	transition: transform 10s linear;
+}
+
+.ease-in {
+	background-color: rgb(23, 213, 77);
+	transition: transform 10s ease-in;
+}
+
+.ease-out {
+	background-color: rgb(243, 255, 192);
+	transition: transform 10s ease-out;
+}
+
+.ease-in-out {
+	background-color: rgb(46, 63, 145);
+	transition: transform 10s ease-in-out;
+}
+
+.translateX {
+	transform: translateX(1200px);
+}
