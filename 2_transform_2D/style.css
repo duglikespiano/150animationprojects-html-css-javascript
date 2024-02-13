@@ -1,0 +1,54 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+.div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	width: 300px;
+	height: 150px;
+	border: 2px solid black;
+	transition: transform 2s;
+}
+
+.translate {
+	background-color: aqua;
+}
+
+.scale {
+	background-color: blueviolet;
+}
+
+.rotate {
+	background-color: yellow;
+}
+
+.skew {
+	background-color: teal;
+}
+
+.translate:hover {
+	transform: translateX(500px);
+}
+
+.scale:hover {
+	transform: scale(1.25);
+}
+
+.rotate:hover {
+	transform: rotateZ(315deg);
+}
+
+.skew:hover {
+	transform: skew(30deg, 10deg);
+}
