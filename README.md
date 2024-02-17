@@ -37,3 +37,5 @@
 2. Transform 2D
 3. Transform 3D
 4. Rotating button
+5. Swipe button
+6. Creative button
