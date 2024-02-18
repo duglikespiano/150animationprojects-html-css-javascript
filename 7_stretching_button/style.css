@@ -1,0 +1,27 @@
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	position: relative;
+	width: 400px;
+	height: 200px;
+	font-size: 50px;
+	color: #351435;
+	border: solid 5px #351435;
+	background-color: transparent;
+	box-sizing: border-box;
+	padding: 0;
+	transition: all 1s;
+	overflow: hidden;
+}
+
+button:hover {
+	width: 600px;
+	letter-spacing: 10px;
+}

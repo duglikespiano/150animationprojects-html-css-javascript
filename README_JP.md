@@ -39,3 +39,4 @@
 4. Rotating button
 5. Swipe button
 6. Creative button
+7. Stretching button
