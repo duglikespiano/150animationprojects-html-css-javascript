@@ -1,0 +1,43 @@
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: #222;
+	padding: 0;
+	margin: 0;
+}
+
+button::before {
+	content: 'YEAH!!';
+	display: flex;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background-color: #f44336;
+	position: absolute;
+	transform: translateY(-100%);
+	transition: transform 1s;
+}
+
+button {
+	position: relative;
+	width: 400px;
+	height: 200px;
+	font-size: 50px;
+	color: #fff;
+	border: solid 5px #fff;
+	background-color: transparent;
+	box-sizing: border-box;
+	padding: 0;
+	transition: all 1s;
+	overflow: hidden;
+}
+
+button:hover::before {
+	transform: translateY(0);
+}

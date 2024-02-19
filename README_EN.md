@@ -40,3 +40,4 @@
 5. Swipe button
 6. Creative button
 7. Stretching button
+8. Another swipe button
