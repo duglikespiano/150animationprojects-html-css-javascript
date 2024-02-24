@@ -45,3 +45,4 @@
 10. Two layers swipping button
 11. Text scaling button
 12. Circular swapping button
+13. Rotating three layers button
