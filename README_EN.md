@@ -52,3 +52,4 @@
 17. Splited button
 18. Border swapping button
 19. Border growing button
+20. First letter rotating button
