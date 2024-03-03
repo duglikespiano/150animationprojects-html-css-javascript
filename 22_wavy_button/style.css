@@ -1,0 +1,62 @@
+body {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	background-color: rgb(127, 87, 125);
+	margin: 0;
+}
+
+a {
+	position: relative;
+	color: #00aeff;
+	font-size: 18px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	border: 2px solid #00aeff;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+
+.wave {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: calc(100% + 22px);
+	background-color: #00aeff;
+	transition: all 1s;
+	z-index: -1;
+}
+
+.wave::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 22px;
+	top: -22px;
+	left: 0;
+	background: url(wave.png);
+	animation: wavy 0.5s linear infinite;
+}
+
+a:hover .wave {
+	top: 0;
+}
+
+a:hover {
+	color: #fff;
+}
+
+@keyframes wavy {
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: 118px;
+	}
+}
