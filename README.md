@@ -55,3 +55,4 @@
 20. First letter rotating button
 21. Borders growing button
 22. Wavy button
+23. Two cuts button
