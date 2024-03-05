@@ -56,3 +56,4 @@
 21. Borders growing button
 22. Wavy button
 23. Two cuts button
+24. Parts skewed button
