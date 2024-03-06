@@ -57,3 +57,4 @@
 22. Wavy button
 23. Two cuts button
 24. Parts skewed button
+25. Pulsing button
