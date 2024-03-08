@@ -59,3 +59,4 @@
 24. Parts skewed button
 25. Pulsing button
 26. Diagonal swipe button
+27. Box shadow button
