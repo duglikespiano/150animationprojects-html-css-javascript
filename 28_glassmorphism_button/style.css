@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 98, 140);
+}
+
+.container {
+	display: flex;
+	width: 600px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.button {
+	position: relative;
+	width: 155px;
+	height: 50px;
+	margin: 20px;
+}
+
+.button a {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.051);
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+	border-top: 1px solid rgba(250, 52, 52, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	z-index: 10;
+	color: #fff;
+	border-radius: 30px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-decoration: none;
+	transition: 0.5s;
+	backdrop-filter: blur(15px);
+	overflow: hidden;
+}
+
+.button:hover a {
+	letter-spacing: 3px;
+}
+
+.button a::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.149), transparent);
+	transform: skewX(45deg);
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+
+a:hover::before {
+	transform: skewX(45deg) translateX(200%);
+	transition-delay: 0s;
+}
+
+.button::before {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 10px;
+	left: 50%;
+	bottom: -5px;
+	background: #ff0461;
+	transform: translateX(-50%);
+	border-radius: 10px;
+	transition: 0.5s;
+	transition-delay: 0s;
+}
+
+.button:hover::before {
+	bottom: 0;
+	width: 80%;
+	height: 50%;
+	border-radius: 30px;
+	transition-delay: 0.5s;
+}
+
+.button::after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 10px;
+	left: 50%;
+	top: -5px;
+	background: #ff0461;
+	transform: translateX(-50%);
+	border-radius: 10px;
+	transition: 0.5s;
+	transition-delay: 0s;
+}
+
+.button:hover::after {
+	width: 80%;
+	height: 50%;
+	top: 0px;
+	border-radius: 30px;
+	transition-delay: 0.5s;
+}
+
+.button:nth-child(1)::before,
+.button:nth-child(1)::after {
+	background: #ff0461;
+	box-shadow: 0 0 5px #ff0461, 0 0 15px #ff0461, 0 0 30px #ff0461, 0 0 60px #ff0461;
+}
