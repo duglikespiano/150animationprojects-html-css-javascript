@@ -61,3 +61,4 @@
 26. Diagonal swipe button
 27. Box shadow button
 28. Glassmorphism button
+29. Zoom in image
