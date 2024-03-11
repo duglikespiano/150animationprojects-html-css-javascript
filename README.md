@@ -62,3 +62,4 @@
 27. Box shadow button
 28. Glassmorphism button
 29. Zoom in image
+30. Caption swipe image
