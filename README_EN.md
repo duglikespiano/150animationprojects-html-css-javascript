@@ -64,3 +64,4 @@
 29. Zoom in image
 30. Caption swipe image
 31. Caption support image
+32. Semi transparent background image
