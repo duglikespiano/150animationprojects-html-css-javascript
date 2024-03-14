@@ -65,3 +65,4 @@
 30. Caption swipe image
 31. Caption support image
 32. Semi transparent background image
+33. Rotating image
