@@ -66,3 +66,4 @@
 31. Caption support image
 32. Semi transparent background image
 33. Rotating image
+34. Window in image
