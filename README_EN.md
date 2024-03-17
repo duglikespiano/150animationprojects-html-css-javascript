@@ -68,3 +68,4 @@
 33. Rotating image
 34. Window in image
 35. Rotating window
+36. Content changing window
