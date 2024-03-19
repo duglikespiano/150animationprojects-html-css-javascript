@@ -69,3 +69,4 @@
 34. Window in image
 35. Rotating window
 36. Content changing window
+37. Fade in window
