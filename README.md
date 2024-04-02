@@ -84,3 +84,4 @@
 49. Fullscreen background menu
 50. Text filling menu
 51. Text fading menu
+52. Background translation card
