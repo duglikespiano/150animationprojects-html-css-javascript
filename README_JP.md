@@ -86,3 +86,4 @@
 51. Text fading menu
 52. Background translation card
 53. Expandable card
+54. Captain Marvel card
