@@ -88,3 +88,4 @@
 53. Expandable card
 54. Captain Marvel card
 55. Background converting card
+56. Double face card
