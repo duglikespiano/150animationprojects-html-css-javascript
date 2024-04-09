@@ -90,3 +90,4 @@
 55. Background converting card
 56. Double face card
 57. Layered card
+58. Popup card
