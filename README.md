@@ -96,3 +96,4 @@
 61. Smoky text
 62. Fill text
 63. Social media hover effect
+64. Text border effect
