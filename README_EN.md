@@ -97,3 +97,4 @@
 62. Fill text
 63. Social media hover effect
 64. Text border effect
+65. Open close effect

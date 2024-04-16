@@ -1,0 +1,47 @@
+body {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Just Another Hand', cursive;
+	background-color: #9b59b6;
+	margin: 0;
+}
+
+ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	font-size: 10em;
+	color: #fff;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+	transition: all 0.5s;
+}
+
+ul:hover li {
+	transform: rotate(180deg);
+}
+
+ul:hover li:last-child {
+	transition-delay: 0.5s;
+}
+
+li span {
+	display: inline-block;
+	transition: all 0.5s;
+}
+
+ul:hover li:last-child span:nth-child(1) {
+	transform: rotate(90deg) translateY(15px);
+	transition-delay: 1.5s;
+}
+
+ul:hover li:last-child span:nth-child(2) {
+	transform: rotate(180deg) translateY(-5px);
+	transition-delay: 1s;
+}
