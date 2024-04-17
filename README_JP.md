@@ -99,3 +99,4 @@
 64. Text border effect
 65. Open close effect
 66. Blurry effect
+67. Focus effect
