@@ -100,3 +100,4 @@
 65. Open close effect
 66. Blurry effect
 67. Focus effect
+68. Stacked card effect
