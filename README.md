@@ -101,3 +101,4 @@
 66. Blurry effect
 67. Focus effect
 68. Stacked card effect
+69. Clip mask parallax effect
