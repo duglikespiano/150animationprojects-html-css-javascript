@@ -102,3 +102,4 @@
 67. Focus effect
 68. Stacked card effect
 69. Clip mask parallax effect
+70. Animation introduction
