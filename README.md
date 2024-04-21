@@ -103,3 +103,4 @@
 68. Stacked card effect
 69. Clip mask parallax effect
 70. Animation introduction
+71. Animations with more stages
