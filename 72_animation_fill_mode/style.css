@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(94, 50, 205);
+	animation-name: moving;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes moving {
+	0% {
+		transform: translateX(0);
+	}
+	20% {
+		transform: translateX(1250px);
+	}
+	50% {
+		transform: translateX(1000px);
+	}
+	100% {
+		transform: translate(500px, 500px);
+	}
+}

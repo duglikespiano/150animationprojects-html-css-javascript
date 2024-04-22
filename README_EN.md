@@ -104,3 +104,4 @@
 69. Clip mask parallax effect
 70. Animation introduction
 71. Animations with more stages
+72. Animation fill mode
