@@ -105,3 +105,4 @@
 70. Animation introduction
 71. Animations with more stages
 72. Animation fill mode
+73. Animation iteration count property
