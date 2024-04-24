@@ -106,3 +106,4 @@
 71. Animations with more stages
 72. Animation fill mode
 73. Animation iteration count property
+74. Animation direction property

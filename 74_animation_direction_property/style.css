@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(120, 45, 141);
+	animation-name: moving;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes moving {
+	0% {
+		transform: translateX(0);
+	}
+	20% {
+		transform: translateX(1250px);
+	}
+	50% {
+		transform: translateX(1000px);
+	}
+	100% {
+		transform: translate(500px, 500px);
+	}
+}
