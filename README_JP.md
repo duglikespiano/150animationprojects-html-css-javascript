@@ -107,3 +107,4 @@
 72. Animation fill mode
 73. Animation iteration count property
 74. Animation direction property
+75. Animation shorthand
