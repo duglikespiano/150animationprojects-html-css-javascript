@@ -108,3 +108,4 @@
 73. Animation iteration count property
 74. Animation direction property
 75. Animation shorthand
+76. Floating text
