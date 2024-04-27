@@ -109,3 +109,4 @@
 74. Animation direction property
 75. Animation shorthand
 76. Floating text
+77. Rotating loading effect
