@@ -110,3 +110,4 @@
 75. Animation shorthand
 76. Floating text
 77. Rotating loading effect
+78. A moving car animation
