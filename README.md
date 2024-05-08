@@ -120,3 +120,4 @@
 85. Animated background text
 86. Bouncing ball animation
 87. Rainy animation
+88. Hover icon animation
