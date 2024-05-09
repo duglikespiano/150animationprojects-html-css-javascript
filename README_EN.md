@@ -121,3 +121,4 @@
 86. Bouncing ball animation
 87. Rainy animation
 88. Hover icon animation
+89. Loading text animation
