@@ -124,3 +124,4 @@
 89. Loading text animation
 90. Pulse animation
 91. Image slider
+92. Changing background color animation
