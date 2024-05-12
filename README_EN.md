@@ -123,3 +123,4 @@
 88. Hover icon animation
 89. Loading text animation
 90. Pulse animation
+91. Image slider
