@@ -125,3 +125,4 @@
 90. Pulse animation
 91. Image slider
 92. Changing background color animation
+93. Newton's cradle
