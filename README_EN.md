@@ -126,3 +126,4 @@
 91. Image slider
 92. Changing background color animation
 93. Newton's cradle
+94. Colorful loading effect
