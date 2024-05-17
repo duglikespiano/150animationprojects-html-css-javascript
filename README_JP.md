@@ -129,3 +129,4 @@
 94. Colorful loading effect
 95. Moving squares effect
 96. Text reveal effect
+97. Rotating loding animation
