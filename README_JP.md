@@ -130,3 +130,4 @@
 95. Moving squares effect
 96. Text reveal effect
 97. Rotating loding animation
+98. Line loading animation
