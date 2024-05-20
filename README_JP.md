@@ -132,3 +132,4 @@
 97. Rotating loding animation
 98. Line loading animation
 99. Growing lines loading animation
+100. Ring rotation loading animation
