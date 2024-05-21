@@ -133,3 +133,4 @@
 98. Line loading animation
 99. Growing lines loading animation
 100. Ring rotation loading animation
+101. Fading out squares animation
