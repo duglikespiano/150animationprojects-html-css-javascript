@@ -136,3 +136,4 @@
 101. Fading out squares animation
 102. Wave lines animation
 103. Moving boxes background
+104. Hexagon loading animation
