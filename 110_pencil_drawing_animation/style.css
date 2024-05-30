@@ -1,0 +1,157 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	position: relative;
+	color: #262626;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding: 20px 40px;
+}
+
+a span:nth-child(1),
+a span:nth-child(3) {
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background-color: #262626;
+}
+
+a span:nth-child(1) {
+	top: 0;
+	left: 0;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+a:hover span:nth-child(1) {
+	transform: scaleX(1);
+	transition: transform 0.2s;
+}
+
+a span:nth-child(3) {
+	bottom: 0;
+	right: 0;
+	transform: scaleX(0);
+	transform-origin: right;
+}
+
+a:hover span:nth-child(3) {
+	transform: scaleX(1);
+	transition: transform 0.2s;
+	transition-delay: 0.4s;
+}
+
+a span:nth-child(2),
+a span:nth-child(4) {
+	position: absolute;
+	width: 3px;
+	height: 100%;
+	background-color: #262626;
+}
+
+a span:nth-child(2) {
+	top: 0;
+	right: 0;
+	transform: scaleY(0);
+	transform-origin: right;
+}
+
+a:hover span:nth-child(2) {
+	transform: scaleY(1);
+	transition: transform 0.2s;
+	transition-delay: 0.2s;
+}
+
+a span:nth-child(4) {
+	bottom: 0;
+	left: 0;
+	transform: scaleY(0);
+	transform-origin: bottom;
+}
+
+a:hover span:nth-child(4) {
+	transform: scaleY(1);
+	transition: transform 0.2s;
+	transition-delay: 0.6s;
+}
+
+a::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #262626;
+	transform: scale(0);
+	transform-origin: top left;
+	z-index: -1;
+}
+
+a:hover::before {
+	transform: scale(1);
+	transition: transform 0.5s;
+	transition-delay: 0.8s;
+}
+
+a:hover {
+	color: #fff;
+	transition: color 0.2s;
+	transition-delay: 0.8s;
+}
+
+a::after {
+	position: absolute;
+	content: '\f303';
+	font-family: fontAwesome;
+	top: -22px;
+	left: 0;
+	color: #262626;
+}
+
+a:hover::after {
+	animation: draw 1s linear forwards;
+}
+
+@keyframes draw {
+	0% {
+		top: -22px;
+		left: 0;
+	}
+	20% {
+		top: -22px;
+		left: 100%;
+	}
+	40% {
+		top: calc(100% - 22px);
+		left: 100%;
+	}
+	60% {
+		top: calc(100% - 22px);
+		left: 0;
+	}
+	80% {
+		top: -22px;
+		left: 0;
+	}
+	100% {
+		top: calc(100% - 22px);
+		left: 100%;
+	}
+}
