@@ -144,3 +144,4 @@
 109. Glowing circle animation
 110. Pencil drawing animation
 111. Circles animation
+112. Glowing loading animation
