@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background-color: palevioletred;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+h2 {
+	position: relative;
+	font-size: 100px;
+	color: #fff;
+	overflow: hidden;
+}
+
+h2::before {
+	content: '';
+	position: absolute;
+	width: 120%;
+	height: 100%;
+	left: 0;
+	background-color: palevioletred;
+	animation: fade 10s infinite linear;
+}
+
+@keyframes fade {
+	0% {
+		left: -20%;
+	}
+	50% {
+		left: 120%;
+	}
+	100% {
+		left: -20%;
+	}
+}

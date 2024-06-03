@@ -146,3 +146,4 @@
 111. Circles animation
 112. Glowing loading animation
 113. Cloud rain animation
+114. Text fade animation
