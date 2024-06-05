@@ -148,3 +148,4 @@
 113. Cloud rain animation
 114. Text fade animation
 115. Neon text animation
+116. Dots loading animation
