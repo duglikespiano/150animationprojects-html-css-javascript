@@ -152,3 +152,4 @@
 117. Neon button animation
 118. Glassmorphism animation
 119. Split loading animation
+120. Wavy clip path

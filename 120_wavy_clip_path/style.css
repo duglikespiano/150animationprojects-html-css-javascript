@@ -1,0 +1,53 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: #333;
+	font-family: sans-serif;
+}
+
+.wave {
+	position: relative;
+	display: flex;
+	width: 500px;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	position: absolute;
+	font-size: 170px;
+	text-transform: uppercase;
+}
+
+h2:nth-child(1) {
+	/* color: #7efff5; */
+	color: transparent;
+	-webkit-text-stroke: 2px #03a9f4;
+}
+
+h2:nth-child(2) {
+	color: #03a9f4;
+	animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+	0% {
+		clip-path: polygon(0% 38%, 21% 40%, 38% 51%, 54% 57%, 75% 57%, 100% 52%, 100% 100%, 0% 100%);
+	}
+	50% {
+		clip-path: polygon(0 49%, 16% 56%, 33% 55%, 55% 50%, 75% 42%, 100% 40%, 100% 100%, 0% 100%);
+	}
+	100% {
+		clip-path: polygon(0% 38%, 21% 40%, 38% 51%, 54% 57%, 75% 57%, 100% 52%, 100% 100%, 0% 100%);
+	}
+}
