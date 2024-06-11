@@ -153,4 +153,5 @@
 118. Glassmorphism animation
 119. Split loading animation
 120. Wavy clip path
-121. image hover effect
+121. Image hover effect
+122. Pop up clip path
