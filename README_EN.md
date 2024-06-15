@@ -158,3 +158,4 @@
 123. Text effect clip path
 124. Circle hover effect
 125. Flip menu effect
+126. Text split clip path
