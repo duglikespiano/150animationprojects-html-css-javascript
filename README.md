@@ -163,3 +163,4 @@
 128. Text animation clip path
 129. Neon text animation
 130. Skew on scrolling
+131. Colorful text animation
