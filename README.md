@@ -170,3 +170,4 @@
 135. Banner animation
 136. Circular navigation
 137. Tab navigation
+138. Glitch animation
