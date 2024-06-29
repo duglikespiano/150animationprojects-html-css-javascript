@@ -172,3 +172,4 @@
 137. Tab navigation
 138. Glitch animation
 139. Parallax effect
+140. Expandable card
