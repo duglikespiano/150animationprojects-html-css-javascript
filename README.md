@@ -175,3 +175,4 @@
 140. Expandable card
 141. Toggle action menu
 142. Video slider
+143. Card animation
