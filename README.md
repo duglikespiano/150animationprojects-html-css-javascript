@@ -16,7 +16,7 @@
 
 - 프로젝트명 : 150animationprojects_html,css,javascript
 - 관련URL : https://www.udemy.com/course/css-animation-transitions-and-transforms-creativity-course
-- 기간 : 2024.02.12 - 진행중
+- 기간 : 2024.02.12 - 2024.07.06
 - 인원 : 1인
 - 기술스택 : </br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">

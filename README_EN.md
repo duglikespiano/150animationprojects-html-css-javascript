@@ -16,7 +16,7 @@
 
 - Project title : 150animationprojects_html,css,javascript
 - Related URL : https://www.udemy.com/course/css-animation-transitions-and-transforms-creativity-course
-- Period : Feb 12 2024 - In progress
+- Period : Feb 12 2024 - Jul 6 2024
 - Member(s) : Dug Park
 - Tech stack : </br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
